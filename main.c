@@ -33,8 +33,7 @@ void client_list_test ( void ) {
 }
 
 void client_list_detect_time ( void ) {
-	int i = 0;
-	time_t start_time = 0, end_time = 0, err_cnt=0;
+	int i = 0, err_cnt=0;
 	t_client *client = NULL;
 	clock_t sc,ec;
 	int times=0;
